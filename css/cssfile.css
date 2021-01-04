@@ -1,0 +1,432 @@
+/* Start Main Rulz */
+*{
+    box-sizing: border-box;
+}
+body{
+    /* height: 1980; */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imPorder{
+    border: 2px;
+    border-radius: 11px;
+}
+/* End Main Rulz */
+/* ///////////////////////////////////////////////////////////////// */
+/* Start Header */
+header{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    top:0;
+    background-color: #fff;
+    overflow: hidden;
+    position: sticky;
+}
+header img{
+    width: 10%;
+    height: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+header .search-box{
+    height: 45px;
+    width: 40%;
+    float: left;
+    margin-top: 1%;
+    padding-left: 10px;
+    font-size: 18px;
+    overflow: hidden;
+    background-color: #ddd;
+    color:rgb(145, 145, 145);
+}
+header .search-box i{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 14px;
+}
+header .search-box input{
+    border-color: transparent;
+    outline: none;
+    background-color: #ddd;
+    width: 90%;
+    height: 100%;
+    float: left;
+}
+header .continar{
+    width: 45%;
+    padding: 0%;
+    font-size: 20px;
+    overflow: hidden;
+}
+header nav{
+    padding-top: 20px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: 20px;
+    padding-left:5px ;
+}
+header #left{
+    width: 82%;
+    float: left;
+}
+header #right{
+    width: 18%;
+    float: right;
+}
+header nav a:link,a:active,a:visited{
+    color:black;
+    text-decoration: none;
+    padding: 5px;
+}
+header nav a span{
+    font-weight: bold;
+}
+#login{
+    padding-right: 0%;   
+}
+#regist{
+    padding-left: 0%;   
+}
+a i{
+    color:#bebdbd;
+}
+/* End Header */
+/* ///////////////////////////////////////////////////////////////// */
+/* Start nav section */
+.continarSec{
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}
+.continarSec .left,.continarSec .img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.continarSec .left {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.continarSec .left h4{
+    font-weight: lighter;
+}
+.continarSec .left button{
+    width: 350px;
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.continarSec .img{
+    height: 400px;
+}
+.continarSec .img img{
+    width: 100%;
+    height: 100%;
+}
+/* End nav section */
+/* ///////////////////////////////////////////////////////////////// */
+/* Start Home Section */
+.home{
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    padding: 5%;
+    margin: auto;
+    padding-left: 15%;
+}
+.home p{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(68, 63, 63);;
+}
+.frams{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px
+}
+.frams .framLeft{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.frams .framRight{
+    float: left;
+    width: 50%;
+}
+.framImg3{
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.framImg3 .fullImg{
+    width: 30.5555%;
+    height: 150px;
+    float: left;
+    padding-top: 60px;
+    margin-left: 7px;
+}
+.fullImg span{
+    font-size: 18px;}
+.framImg{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 7px;  
+    padding-right: 18px;
+}
+.framImg img{
+    width: 100%;
+    height: 350px;
+}
+.framsVid{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.framsVid .vid{
+    width: 100%;
+    overflow: hidden;
+}
+.vid video{
+    width: 25%;
+    height: 120px;
+    float: left;
+}
+.relativ span{
+    position:absolute;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 50px;
+    z-index:1;
+    color: #fff;
+}
+/* section Browse */
+.tab{
+    overflow: hidden;
+}
+.tab p{
+    float: left;margin-left: 18px;
+    color: rgb(192, 189, 189);
+    font-size: 20px;
+}
+.tab p:hover{
+    color: black;
+}
+hr{
+    width: 100%;
+    display: flex;
+}
+.hidden{
+    overflow: hidden;
+    width: 100%;
+}
+.hidden section{
+    display: none;
+    float: left;
+    height: 100%;
+    width: 100%;}
+#DIV3,#DIV2,#DIV1{
+    overflow: hidden;
+}
+#DIV3 div,#DIV2 div{
+    height: 60px;
+    width: 28.3333%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #F1F8F7;
+    float: left;
+    margin: 16px;
+    padding-top: 18px;}
+#DIV3 div:hover,#DIV2 div:hover{
+    background-color: #C5D1CF ;
+}
+#DIV2 i{
+    margin-right: 40px;
+    color:rgb(126, 123, 123);
+    font-size: 30px;
+}
+#DIV1 div{
+    text-align: center;
+    float: left;width: 28%;
+    padding-top: 5%;
+    background-size:cover;
+    height: 150px;
+    margin: 35px;
+}
+#DIV1 div span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+/* End Home Section */
+/* ///////////////////////////////////////////////////////////////// */
+/* Start portfol section */
+.portfol{
+    width: 100%;
+    background: rgba(108, 206, 182, 0.13);
+    padding: 10%;
+    padding-left: 20%;
+}
+.portfol h1{
+    color: rgb(43, 40, 40);
+    font-size: 40px;
+}
+.portfol h2{
+    color: rgb(7, 114, 87);
+    font-size: 50px;
+}
+.portfol h3{
+    color: #aaa;
+    font-size: 20px;
+}
+.portfol .contin{
+    overflow: hidden;
+    padding: 100px;
+    width: 100%;
+}
+.portfol .contin .left{
+    width: 50%;
+    float: left;
+}
+.portfol .contin .right{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+}
+.portfol .contin i{
+    color:rgb(133, 132, 132);
+}
+.portfol .contin h2{
+    color:#000;
+    font-size: 35px;
+}
+.portfol .contin h3{
+    color: #aaa;
+    font-weight: lighter;
+    font-size: 20px;
+}
+/* End portfol section */
+/* Start footer */
+footer{
+    width: 100%;
+    background: black;
+}
+footer .continarSec .left{
+    width: 40%;
+    padding-top: 10%;
+    font-size: 30px;
+    font-weight: bold;  
+}
+footer .continarSec .left span{
+    font-size: 28px;
+}  
+footer .continarSec .img{
+    width: 60%;
+    height: 5%;
+}
+footer .secFooter{
+    width: 100%;
+    height: 10%;
+    padding: 5%;
+    padding-bottom: 2%;
+    font-size: 22px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+footer .secFooter #liA {
+    text-decoration: none;
+    color: rgb(177, 251, 233);
+}
+footer .contact{
+    width: 100%;
+    height: 30%;
+    background: black;
+    overflow: hidden;
+}
+footer .contact .sec1{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+footer .contact .sec1 img{
+    width: 100%;
+    height: 250px;
+}
+footer .contact .sec2{
+    height: 100%;
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    padding-top: 110px;
+}
+footer .contact .sec2 a{
+    font-size: 18px;
+}
+footer .contact .sec2 .div1{
+    padding-left: 10%;
+    float: left;
+    width: 30.33333%;
+}
+footer .contact .sec2 .div2{
+    padding-left: 10%;
+    float: left;
+    width: 30.33333%;
+}
+footer .contact .sec2 .div3{
+    padding-left: 10%;
+    float: left;
+    width: 30.33333%;
+}
+footer .contact .sec3{
+    height: 100%;
+    width: 20%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 100px;
+}
+footer .contact .sec3 a i{
+    margin-right: 5px;
+    color: rgb(151, 150, 150);
+    font-size: 28px;
+}
+footer .contact span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+}
+.contact a{
+    color: rgb(151, 150, 150);
+    font-size: 28px;
+    text-decoration: none;
+}
+footer .copyR{
+    width: 100%;
+    height: 10%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    font-size: 21px;
+    background: #000;
+    font-weight: 12px;
+    color: rgb(151, 150, 150);
+    text-align: center;
+}
+/* End footer */
+/* ///////////////////////////////////////////////////////////////// */
